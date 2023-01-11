@@ -53,7 +53,7 @@ variable "autoscaling_group_max_size" {
 
 variable "aws_key_pair" {
   type = string
-  default = "D:/Intellipath/AWS/CustomVPC.pem"
+  default = "<File Path>"
 }
 
 output "subnet_list1" {

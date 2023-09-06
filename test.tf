@@ -36,6 +36,16 @@ resource "aws_iam_policy" "example" {
     }
   }
 
+dynamic "statement_cross" {
+  for_each = local.include_iam_statements && length(local.arns) > 0 ? [for idx, arn in local.arns : arn != null ? idx : null] : []
+  content {
+    sid       = "statement-${statement_cross.key}"
+    effect    = "Allow"
+    actions   = ["sts:*"]
+    resources = [for idx, arn in local.arns : arn != null ? local.arns[idx] : null]
+  }
+}
+
   dynamic "Statement" {
     for_each = local.include_iam_statements ? [for idx, arn in local.arns : arn != null ? idx : null] : []
     content {
@@ -54,3 +64,5 @@ resource "aws_iam_policy" "example" {
       Resource = Statement.content.Resource
     }]
   })
+
+

@@ -65,4 +65,25 @@ dynamic "statement_cross" {
     }]
   })
 
+resource "aws_iam_policy" "example_with_cross" {
+  count       = local.include_iam_statements ? 1 : 0
+  name        = "example-policy"
+  description = "Example policy with cross"
 
+  statement {
+    sid       = "compulsory-statement"
+    effect    = "Allow"
+    actions   = ["s3:*"]
+    resources = ["*"]
+  }
+
+  dynamic "statement_cross" {
+    for_each = local.include_iam_statements ? [for idx, arn in local.arns : arn != null ? idx : null] : []
+    content {
+      sid       = "statement-${statement_cross.key}"
+      effect    = "Allow"
+      actions   = ["sts:*"]
+      resources = [for idx, arn in local.arns : arn != null ? local.arns[idx] : null]
+    }
+  }
+}

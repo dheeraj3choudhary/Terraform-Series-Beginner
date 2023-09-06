@@ -87,3 +87,13 @@ resource "aws_iam_policy" "example_with_cross" {
     }
   }
 }
+
+  dynamic "statement_cross" {
+    for_each = local.include_iam_statements ? toset(local.arns) : []
+    content {
+      sid       = "statement-${statement_cross.key}"
+      effect    = "Allow"
+      actions   = ["sts:*"]
+      resources = [statement_cross.key]
+    }
+  }

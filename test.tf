@@ -21,3 +21,17 @@ resource "aws_ssm_parameter" "account_ids" {
   type  = "String"
   value = join(",", var.account_ids)
 }
+
+resource "aws_iam_policy" "example" {
+  name        = "example-policy"
+  description = "Example policy"
+
+  dynamic "Statement" {
+    for_each = local.include_iam_statements ? [for idx, arn in local.arns : arn != null ? idx : null] : []
+    content {
+      sid       = "statement-${Statement.key}"
+      Effect    = "Allow"
+      Action    = "sts:*"
+      Resource  = [local.include_iam_statements ? local.arns[Statement.key] : null]
+    }
+  }

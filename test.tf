@@ -35,3 +35,22 @@ resource "aws_iam_policy" "example" {
       Resource  = [local.include_iam_statements ? local.arns[Statement.key] : null]
     }
   }
+
+  dynamic "Statement" {
+    for_each = local.include_iam_statements ? [for idx, arn in local.arns : arn != null ? idx : null] : []
+    content {
+      sid       = "statement-${Statement.key}"
+      Effect    = "Allow"
+      Action    = "sts:*"
+      Resource  = [for idx, arn in local.arns : arn != null ? local.arns[idx] : null]
+    }
+  }
+
+  policy = jsonencode({
+    Version = "2012-10-17",
+    Statement = [for Statement in aws_iam_policy.example.Statement : {
+      Effect   = Statement.content.Effect
+      Action   = Statement.content.Action
+      Resource = Statement.content.Resource
+    }]
+  })

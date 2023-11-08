@@ -18,16 +18,40 @@
 
 ## [Subscribe](https://www.youtube.com/@dheeraj-choudhary?sub_confirmation=1) for more About Cloud & Technology. ❤
 
-
 ### If you like the series dont forget to [nominate me for Github Star](https://stars.github.com/nominate/) 🌟
 
 </div>
 
 ## 📋 TABLE OF CONTENTS 📋
+#### 📽 Deploy on AWS Using Terraform Youtube Series
+#### 👨🏻‍💻 Git Repo Code Library
 #### ✍ Deploy on AWS Using Terraform Blog Series  
 #### 👨‍💻 Realtime Usecases Blogs 👨‍💻  
-#### 📽 Deploy on AWS Using Terraform Youtube Series  
-#### 👨🏻‍💻 Git Repo Code Library  
+
+# 👁‍🗨👁‍🗨 Deploy on AWS Using Terraform Youtube Series 📽
+
+### ✅ Part 1:- Effortless AWS VPC Setup: Terraform for Internet Gateway
+[![video1](https://i9.ytimg.com/vi/3XAIYnU6MLw/mqdefault.jpg?v=642397f9&sqp=COCorqoG&rs=AOn4CLCGRi0MlLPiU-ynUqmG0aE8tlwSAQ)](https://youtu.be/3XAIYnU6MLw?si=4b5C8uFklipnfiCJ "")
+
+### ✅ Part 2:- Streamlined AWS Public Subnet Deployment: Terraform Tutorial
+[![video2](https://i9.ytimg.com/vi_webp/kzrwcViVD0o/mqdefault.webp?v=642d09a0&sqp=COCorqoG&rs=AOn4CLAgkKQYATv5hJMZws0U7HfUzgEQlQ)](https://youtu.be/kzrwcViVD0o?si=g787-uI02xGdNALg "")
+
+### ✅ Part 3:- Streamlined AWS Private Subnet Deployment: Terraform Guide
+[![video3](https://i9.ytimg.com/vi/65hkYpfooSM/mqdefault.jpg?v=64328aa9&sqp=COCorqoG&rs=AOn4CLDJ-WINntJh5HXvyBvXHvEeP2fyNQ)](https://youtu.be/65hkYpfooSM "")
+
+### ✅ Part 4:- Secure AWS Network: NACL Deployment with Terraform
+[![video4](https://i9.ytimg.com/vi_webp/8plrxcnBf8I/mqdefault.webp?v=649befbc&sqp=COCorqoG&rs=AOn4CLADCt3osA7vLoxIo5zuYsT9TFq97A)](https://youtu.be/8plrxcnBf8I "")
+
+### ✅ Part 5:- Deploy AWS EC2 With Terraform Along With Security Group, User 
+[![video5](https://i9.ytimg.com/vi/indA-KiMBgo/mqdefault.jpg?v=64a64ebe&sqp=COCorqoG&rs=AOn4CLCB3ejJr6ix4zGYcRsiJupXSqpkHA)](https://youtu.be/indA-KiMBgo "")
+
+# 👨‍💻 Git Repo Code Library 👨‍💻
+### 1. [Deploy AWS VPC , Internet Gateway & Associate Using Terraform](https://dheeraj3choudhary.com/deploy-aws-vpc-internet-gateway-associate-using-terraform)
+### 2. [Using Terraform Deploy AWS Public Subnet, Private Subnet, Route Table & Association](https://dheeraj3choudhary.com/deploy-aws-public-subnet-route-table-associate-using-terraform)
+### 3. [Deploy AWS Private Subnet, Nat Gateway, Elastic Ip, Private Route Table & Associate Using Terraform](https://dheeraj3choudhary.com/deploy-aws-private-subnet-nat-gateway-elastic-ip-private-route-table-associate-using-terraform)
+### 4. [Deploy AWS NACL, Inbound & Outbound Routes, Security Group & Associate With Subnet Using Terraform](https://dheeraj3choudhary.com/deploy-aws-nacl-inbound-outbound-routes-security-group-associate-with-subnet-using-terraform)
+### 5. [Deploy AWS EC2 With Security Group & User Data & Mapping Using Terraform](https://dheeraj3choudhary.com/deploy-aws-ec2-with-security-group-user-data-mapping-using-terraform)
+
 
 ## ☁️🚀✍ Deploy on AWS Using Terraform Blog Series  
 
@@ -57,32 +81,6 @@
 # 👨‍💻 Realtime Usecases Blogs 👨‍💻
 
 [![Usecase1](https://cdn.hashnode.com/res/hashnode/image/upload/v1673410876788/f863daeb-e63a-4af3-a7aa-9da8bfeb7d40.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)](https://dheeraj3choudhary.com/build-aws-web-application-layer-with-terraform-infra-as-code "Blog")
-
-# 👁‍🗨👁‍🗨 AWS Terraform Youtube Series 📽
-
-### ✅ Part 1:- Effortless AWS VPC Setup: Terraform for Internet Gateway
-[![video1](https://i9.ytimg.com/vi/3XAIYnU6MLw/mqdefault.jpg?v=642397f9&sqp=COCorqoG&rs=AOn4CLCGRi0MlLPiU-ynUqmG0aE8tlwSAQ)](https://youtu.be/3XAIYnU6MLw?si=4b5C8uFklipnfiCJ "")
-
-### ✅ Part 2:- Streamlined AWS Public Subnet Deployment: Terraform Tutorial
-[![video2](https://i9.ytimg.com/vi_webp/kzrwcViVD0o/mqdefault.webp?v=642d09a0&sqp=COCorqoG&rs=AOn4CLAgkKQYATv5hJMZws0U7HfUzgEQlQ)](https://youtu.be/kzrwcViVD0o?si=g787-uI02xGdNALg "")
-
-### ✅ Part 3:- Streamlined AWS Private Subnet Deployment: Terraform Guide
-[![video3](https://i9.ytimg.com/vi/65hkYpfooSM/mqdefault.jpg?v=64328aa9&sqp=COCorqoG&rs=AOn4CLDJ-WINntJh5HXvyBvXHvEeP2fyNQ)](https://youtu.be/65hkYpfooSM "")
-
-### ✅ Part 4:- Secure AWS Network: NACL Deployment with Terraform
-[![video4](https://i9.ytimg.com/vi_webp/8plrxcnBf8I/mqdefault.webp?v=649befbc&sqp=COCorqoG&rs=AOn4CLADCt3osA7vLoxIo5zuYsT9TFq97A)](https://youtu.be/8plrxcnBf8I "")
-
-### ✅ Part 5:- Deploy AWS EC2 With Terraform Along With Security Group, User 
-[![video5](https://i9.ytimg.com/vi/indA-KiMBgo/mqdefault.jpg?v=64a64ebe&sqp=COCorqoG&rs=AOn4CLCB3ejJr6ix4zGYcRsiJupXSqpkHA)](https://youtu.be/indA-KiMBgo "")
-
-
-# 👨‍💻 Git Repo 👨‍💻
-### 1. [Deploy AWS VPC , Internet Gateway & Associate Using Terraform](https://dheeraj3choudhary.com/deploy-aws-vpc-internet-gateway-associate-using-terraform)
-### 2. [Using Terraform Deploy AWS Public Subnet, Private Subnet, Route Table & Association](https://dheeraj3choudhary.com/deploy-aws-public-subnet-route-table-associate-using-terraform)
-### 3. [Deploy AWS Private Subnet, Nat Gateway, Elastic Ip, Private Route Table & Associate Using Terraform](https://dheeraj3choudhary.com/deploy-aws-private-subnet-nat-gateway-elastic-ip-private-route-table-associate-using-terraform)
-### 4. [Deploy AWS NACL, Inbound & Outbound Routes, Security Group & Associate With Subnet Using Terraform](https://dheeraj3choudhary.com/deploy-aws-nacl-inbound-outbound-routes-security-group-associate-with-subnet-using-terraform)
-### 5. [Deploy AWS EC2 With Security Group & User Data & Mapping Using Terraform](https://dheeraj3choudhary.com/deploy-aws-ec2-with-security-group-user-data-mapping-using-terraform)
-
 
 <div align="center">
 

@@ -31,19 +31,19 @@
 # 👁‍🗨👁‍🗨 Deploy on AWS Using Terraform Youtube Series 📽
 
 ### ✅ Part 1:- Effortless AWS VPC Setup: Terraform for Internet Gateway
-[![video1](https://i9.ytimg.com/vi/3XAIYnU6MLw/mqdefault.jpg?v=642397f9&sqp=COCorqoG&rs=AOn4CLCGRi0MlLPiU-ynUqmG0aE8tlwSAQ)](https://youtu.be/3XAIYnU6MLw?si=4b5C8uFklipnfiCJ "")
+[![video1](https://i9.ytimg.com/vi/3XAIYnU6MLw/mqdefault.jpg?v=642397f9&sqp=CKypuaoG&rs=AOn4CLAI9CBeIPlXJRCTiTMzF64HAHm-SA)](https://youtu.be/3XAIYnU6MLw?si=4b5C8uFklipnfiCJ "")
 
 ### ✅ Part 2:- Streamlined AWS Public Subnet Deployment: Terraform Tutorial
-[![video2](https://i9.ytimg.com/vi_webp/kzrwcViVD0o/mqdefault.webp?v=642d09a0&sqp=COCorqoG&rs=AOn4CLAgkKQYATv5hJMZws0U7HfUzgEQlQ)](https://youtu.be/kzrwcViVD0o?si=g787-uI02xGdNALg "")
+[![video2](https://i9.ytimg.com/vi_webp/kzrwcViVD0o/mqdefault.webp?v=642d09a0&sqp=CKypuaoG&rs=AOn4CLAUA3v8Z7FwNbkJMYl9AFlrUsqj3Q)](https://youtu.be/kzrwcViVD0o?si=g787-uI02xGdNALg "")
 
 ### ✅ Part 3:- Streamlined AWS Private Subnet Deployment: Terraform Guide
-[![video3](https://i9.ytimg.com/vi/65hkYpfooSM/mqdefault.jpg?v=64328aa9&sqp=COCorqoG&rs=AOn4CLDJ-WINntJh5HXvyBvXHvEeP2fyNQ)](https://youtu.be/65hkYpfooSM "")
+[![video3](https://i9.ytimg.com/vi/65hkYpfooSM/mqdefault.jpg?v=64328aa9&sqp=CKypuaoG&rs=AOn4CLArq2S2rESg8R5Ol6nYYabWBKGLXw)](https://youtu.be/65hkYpfooSM "")
 
 ### ✅ Part 4:- Secure AWS Network: NACL Deployment with Terraform
-[![video4](https://i9.ytimg.com/vi_webp/8plrxcnBf8I/mqdefault.webp?v=649befbc&sqp=COCorqoG&rs=AOn4CLADCt3osA7vLoxIo5zuYsT9TFq97A)](https://youtu.be/8plrxcnBf8I "")
+[![video4](https://i9.ytimg.com/vi_webp/8plrxcnBf8I/mqdefault.webp?v=649befbc&sqp=CKypuaoG&rs=AOn4CLCSuLHtoJ1JppxFJK2j6Pre5fQdkA)](https://youtu.be/8plrxcnBf8I "")
 
 ### ✅ Part 5:- Deploy AWS EC2 With Terraform Along With Security Group, User 
-[![video5](https://i9.ytimg.com/vi/indA-KiMBgo/mqdefault.jpg?v=64a64ebe&sqp=COCorqoG&rs=AOn4CLCB3ejJr6ix4zGYcRsiJupXSqpkHA)](https://youtu.be/indA-KiMBgo "")
+[![video5](https://i9.ytimg.com/vi/indA-KiMBgo/mqdefault.jpg?v=64a64ebe&sqp=CKypuaoG&rs=AOn4CLBnP4Qhma8bmbcSP5lGd_XNsKuzDw)](https://youtu.be/indA-KiMBgo "")
 
 # 👨‍💻 Git Repo Code Library 👨‍💻
 ### 1. [Deploy AWS VPC , Internet Gateway & Associate Using Terraform](https://dheeraj3choudhary.com/deploy-aws-vpc-internet-gateway-associate-using-terraform)
